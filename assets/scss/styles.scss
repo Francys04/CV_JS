@@ -119,15 +119,17 @@ body.scale-cv{
         padding: 0 1rem;
     }
 
-    // & .home__img{
-    //     width: 300px;
-    //     height: 90px;
-    // }
+    & .home__img{
+        width: 300px;
+        height: 300px;
+        justify-self: center;
+    }
     & .home__container{
         gap: 1.5rem;
     }
     & .home__data{
-        gap: .25rem;
+        gap: .5rem;
+       
     }
     & .home__address,
     .social__container{

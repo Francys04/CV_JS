@@ -102,8 +102,8 @@ let resumeButton = document.getElementById('resume-button');
 // Html2pdf options
 let opt = {
     margin:       0,
-    filename:     'myResume.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
+    filename:     'Morohai_A_Resume_CV.pdf',
+    image:        { type: 'jpeg', quality: 1 },
     html2canvas:  { scale: 4 },
     jsPDF:        { format: 'a4', orientation: 'portrait' }
 }
